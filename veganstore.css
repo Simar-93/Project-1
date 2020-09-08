@@ -1,0 +1,385 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0px;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    width: 100%;
+    background-color: white;
+    height:75px;
+    box-shadow:8px 0px 10px lightgrey;
+    align-items: center;
+}
+header img{
+    width:40px;
+    height:45px;
+    margin-left: 28px;
+
+}
+header nav span{
+    margin-left: 25px;
+    
+}
+header nav button{
+    width:150px;
+    height:30px;
+    background-color: rgb(170,210,54);
+    color:white;
+    border: none;
+
+}
+#pop{
+    border-top: 2px solid rgb(170,210,54);
+    padding:20px;
+    position: absolute;
+    display: none;
+    box-shadow:rgb(204,204,204) 0px 2px 5px;
+
+}
+#pop p{
+    border-bottom: 1px solid gray;
+
+}
+header nav span:first-child:hover #pop{
+    display: block;
+    background-color: white;
+
+}
+
+#s1{
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png);
+    height: 100vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#s1 h1{
+    letter-spacing:8px;
+    font-weight:600;
+    font-size:44px;
+    
+
+}
+#s1 p{
+    color:#8b8b99;
+    margin-top:90px;
+
+}
+#s2{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#s2>div{
+    width:25%;
+    padding:15% 5%;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+#s2 div:first-child{
+    background-color: #5acda6;
+
+
+}
+#s2 div:nth-child(2){
+    background-color: #91ac41;
+
+
+}
+#s2 div:nth-child(3){
+    background-color: #e4b476;
+
+
+}
+#s2 div:last-child{
+    background-color: #f69cad;
+
+
+}
+#s2 div i{
+    font-size:80px;
+    color:white;
+    transition: 0.3;
+}
+#s2 div h3{
+    color:white;
+    font-size:25px;
+    font-weight:600;
+}
+#s2 div p{
+    color:white;
+    text-align: center;
+    line-height:1.5;
+}
+#s2 div:hover i{
+    transform:scale(1.2);
+    color:white;
+}
+#s3{
+    background-color: #F7EEE2;
+    text-align: center;
+    
+}
+#s3>h1{
+    font-size:40px;
+    
+}
+#s3>span{
+    color:#8b8b99;
+}
+#s3 article{
+    display: flex;
+}
+#s3 article div{
+    width:25%;
+    padding:15px;
+}
+#s3 article div i{
+    color:white;
+    font-size:60px;
+    background-color: #E2B375;
+    border-radius:50%;
+    padding: 35px;
+}
+#s3 article div h1{
+    font-size: 30px;
+}
+#s3 article div p{
+    color:#8b8b99;
+
+
+}
+#s3 article div:hover i{
+    transform: scale(1.1);
+    transition: 0.3;
+}
+.greenfont{
+    font-family: 'Caveat', cursive;
+    color:#91AC41;
+    text-align: center;
+    margin:0px;
+    padding-top:15px;
+
+
+}
+#s4{
+    background-color: white;
+    text-align:center;
+    padding:16px;
+}
+
+#s4>p{
+    color:#8B8B99;
+}
+#s4 article div{
+    display: inline-block;
+    margin-top: 30px;
+    
+}
+#s4 div img{
+    width:80px;
+    margin:0;
+    border-radius: 50%;
+}
+#s4 div{
+    width: 29%;
+    box-sizing:border-box;
+    text-align:center;
+    align-items: center;
+    background-color:#f5f6fb;
+    padding:5%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    flex-direction: column;
+    margin:10px;
+
+}
+.job{
+    font-style: italic;
+    font-size: 12px;
+}
+#s4 article div p{
+    color:#8B8B99;
+
+
+}
+#s4 article div h3{
+    font-size: 15px;
+}
+#s4 div:hover{
+    box-shadow: 4px 8px 15px lightgray, -4px -8px 15px lightgray;
+
+}
+#s5{
+    display:flex;
+    margin-top:40px;
+}
+#s5 div{
+    background-image:url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+    width:40%;
+    padding:10%;
+}
+#s5 div h1{
+    font-size:50px;
+}
+#s5 img{
+    width:60%;
+}
+#s5 div p{
+    color:#8B8B99;
+}
+#emailentry{
+    width:175px;
+    height:30px;
+    border: none;
+    font-size:18px;
+    margin-top: 90px;
+
+}
+#submitentry{
+    height:40px;
+    width:125px;
+    background-color:#f69dad;
+    color:white;
+    border: none;
+    margin-top:30px;
+    font-weight:800;
+    border-radius:5px;
+}
+#submitentry:hover{
+    background-color:transparent;
+    border: 1px solid #f69dad; 
+    color:#f69dad;
+
+}
+#s6{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F6FCFA;
+    padding:50px 0;
+    
+}
+#s6 div{
+    text-align:center ;
+}
+#s6 div h1{
+    font-size:45px;
+}
+#s6 div p{
+    color:#58E3B5;
+    font-style:italic;
+}
+#s7{
+    align-items: center;
+    text-align:center;
+}
+#s7 h1{
+    font-size: 45px;
+    color:#8B8B99;
+    
+}
+#s7 div{
+    width:90px;
+    display:inline-block;
+    height:1px;
+    background-color:#e4b476;
+    margin:0px auto;
+    margin-bottom:30px;
+    align-content: center;
+}
+#s7 iframe{
+    height:60vh;
+    width:100%;
+}
+#s8{
+    display:flex;
+}
+#s8 div{
+    width:50%;
+    padding:2%;
+
+}
+#s8 div h1{
+    font-size: 45px;
+}
+#s8 div p{
+    font-size:16px;
+    color:#8B8B99;
+}
+.textbars{
+    height:40px;
+    width:400px;
+    margin:10px;
+    border:1px solid lightgray;
+    border-radius: 5px;
+}
+#s8 div input:last-child{
+    width:225px;
+    height:40px;
+    border:none;
+    background-color:rgb(170,210,54) ;
+    color:white;
+    text-transform:uppercase;
+    font-size:16px;
+    border-radius:5px;
+    margin-left: 10px;
+
+}
+#s8 textarea{
+    margin-left:10px;
+}
+footer{
+    background-color: #232323;
+    color:white;
+    text-align: center;
+    padding:30px;
+}
+@media screen and (max-width:600px){
+    header nav span{
+        display: none;
+    }
+    #s1 h1{
+        font-size:22px;
+    }
+    #s2>div{
+        width:100%;
+    }
+    #s3{
+        height: 250vh;
+        background-color:#F7EEE2 ;
+    }
+     #s3 article{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    #s4 article div{
+        width:100%; 
+    }
+    #s5{
+        flex-direction: column;
+    }
+    #s5 div{
+        width:80%;
+    }
+    #s5 img{
+        width: 100%;
+    }
+    #s6{
+        flex-direction: column;
+    }
+    #s8{
+        flex-direction: column;
+    
+
+    }
+}
